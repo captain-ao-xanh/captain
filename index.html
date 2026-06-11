@@ -3,27 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Captain Áo Xanh - Tổng Hợp Deal Thời Trang Nổi Bật</title>
+    <title>Captain Áo Xanh - Đang Bảo Trì & Nâng Cấp</title>
     
     <meta name="description" content="Captain Áo Xanh chuyên tổng hợp các deal thời trang, quần áo, phụ kiện hot nhất từ Shopee và TikTok Shop. Cập nhật liên tục mã giảm giá và xu hướng!">
     <meta property="og:title" content="Captain Áo Xanh - Săn Deal Thời Trang Giá Tốt">
     <meta property="og:description" content="Khám phá ngay bộ sưu tập thời trang nam nữ chất lượng cao, giá tận gốc.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80">
     <meta property="og:type" content="website">
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Captain Áo Xanh",
-      "url": "https://captainaoxanh.com",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://captainaoxanh.com/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -39,19 +25,8 @@
             }
         }
     </script>
-    <style>
-        html { scroll-behavior: smooth; }
-        .badge-hot { @apply bg-red-500 text-white; }
-        .badge-best_seller { @apply bg-orange-500 text-white; }
-        .badge-new { @apply bg-green-500 text-white; }
-        .badge-sale { @apply bg-yellow-400 text-gray-900; }
-        .badge-limited { @apply bg-gray-800 text-white; }
-        .badge-trending { @apply bg-pink-500 text-white; }
-        .badge-featured { @apply bg-primary text-white; }
-        .badge-premium { @apply bg-purple-600 text-white; }
-    </style>
 </head>
-<body class="bg-gray-50 text-gray-800 antialiased">
+<body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
 
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -60,74 +35,44 @@
             </a>
             <nav class="hidden md:flex space-x-6 font-semibold text-gray-600">
                 <a href="#" class="hover:text-primary transition">Trang chủ</a>
-                <a href="#featured-section" class="hover:text-primary transition">Nổi bật</a>
-                <a href="#all-products-section" class="hover:text-primary transition">Tất cả Deal</a>
+                <a href="#" class="text-gray-400 cursor-not-allowed">Nổi bật (Sắp ra mắt)</a>
             </nav>
-            <a href="#all-products-section" class="hidden md:block bg-primary text-white px-5 py-2 rounded-full font-bold hover:bg-secondary transition shadow-md">Săn Deal Ngay</a>
         </div>
     </header>
 
-    <section class="relative">
-        <div class="absolute inset-0 bg-black/50 z-10"></div>
-        <img id="hero-img" src="" alt="Banner" class="w-full h-[400px] md:h-[500px] object-cover" loading="lazy">
-        <div class="absolute inset-0 z-20 flex flex-col justify-center items-center text-center px-4 text-white">
-            <h1 id="hero-title" class="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg"></h1>
-            <p id="hero-slogan" class="text-lg md:text-xl font-medium mb-8 drop-shadow-md"></p>
-            <div class="flex gap-4">
-                <a href="#all-products-section" class="bg-primary hover:bg-white hover:text-primary border-2 border-primary text-white font-bold py-3 px-8 rounded-full transition duration-300">Khám Phá Deal</a>
-            </div>
-        </div>
-    </section>
-
-    <div id="dynamic-badge-sections"></div>
-
-    <section id="all-products-section" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-10">
-                <h2 class="text-3xl font-extrabold text-gray-900 mb-2">Tất Cả Deal Affiliate</h2>
-                <p class="text-gray-500">Tìm kiếm và lọc sản phẩm theo nhu cầu của bạn</p>
-            </div>
-
-            <div class="bg-gray-50 p-5 rounded-2xl mb-8 shadow-sm border border-gray-100 flex flex-col lg:flex-row gap-4 justify-between items-center z-30 relative">
-                <div class="w-full lg:w-1/4 relative">
-                    <i class="fa-solid fa-magnifying-glass absolute left-4 top-3.5 text-gray-400"></i>
-                    <input type="text" id="search-input" placeholder="Tìm tên sản phẩm..." class="w-full pl-11 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition">
-                </div>
-                
-                <div class="flex flex-wrap w-full lg:w-auto gap-3">
-                    <select id="platform-filter" class="flex-1 lg:flex-none border border-gray-200 py-3 px-4 rounded-xl focus:ring-2 focus:ring-primary outline-none">
-                        <option value="all">Mọi nền tảng</option>
-                        <option value="shopee">Shopee</option>
-                        <option value="tiktok">TikTok Shop</option>
-                    </select>
-
-                    <select id="category-filter" class="flex-1 lg:flex-none border border-gray-200 py-3 px-4 rounded-xl focus:ring-2 focus:ring-primary outline-none"></select>
-                    
-                    <select id="badge-filter" class="flex-1 lg:flex-none border border-gray-200 py-3 px-4 rounded-xl focus:ring-2 focus:ring-primary outline-none">
-                        <option value="all">Tất cả Nhãn</option>
-                        <option value="hot">Hot</option>
-                        <option value="sale">Đang Giảm Giá</option>
-                        <option value="best_seller">Bán Chạy</option>
-                        <option value="new">Mới Về</option>
-                    </select>
-
-                    <select id="sort-filter" class="flex-1 lg:flex-none border border-gray-200 py-3 px-4 rounded-xl focus:ring-2 focus:ring-primary outline-none">
-                        <option value="default">Sắp xếp Mặc định</option>
-                        <option value="price-asc">Giá: Thấp đến Cao</option>
-                        <option value="price-desc">Giá: Cao đến Thấp</option>
-                        <option value="sold-desc">Lượt Bán nhiều nhất</option>
-                        <option value="rating-desc">Đánh giá tốt nhất</option>
-                    </select>
-                </div>
-            </div>
-
-            <div id="all-products-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12"></div>
+    <main class="flex-grow flex items-center justify-center p-4">
+        <div class="text-center bg-white p-10 md:p-16 rounded-3xl shadow-[0_8px_30px_-10px_rgba(0,0,0,0.1)] border border-gray-100 max-w-2xl w-full">
             
-            <div id="pagination-container" class="flex justify-center items-center gap-2"></div>
+            <div class="text-primary text-6xl md:text-8xl mb-8 animate-bounce">
+                <i class="fa-solid fa-person-digging"></i>
+            </div>
+            
+            <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
+                Website 
+                <br>
+                Đang Hoàn Thiện
+            </h1>
+            
+            <p class="text-gray-500 text-lg md:text-xl leading-relaxed mb-10">
+                Captain Áo Xanh hiện đang trong quá trình nâng cấp hệ thống để mang đến cho bạn những trải nghiệm săn deal thời trang xịn xò và mượt mà nhất. 
+                <br class="hidden md:block">Vui lòng quay lại sau nhé!
+            </p>
+            
+            <!-- <div class="flex flex-col sm:flex-row justify-center gap-4 items-center">
+                <p class="text-sm font-semibold text-gray-400 uppercase tracking-widest sm:mr-4">Theo dõi chúng tôi tại:</p>
+                <div class="flex gap-4">
+                    <a href="#" class="bg-gray-800 hover:bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center transition transform hover:scale-110 shadow-md">
+                        <i class="fa-brands fa-facebook-f text-white text-lg"></i>
+                    </a>
+                    <a href="#" class="bg-gray-800 hover:bg-tiktok w-12 h-12 rounded-full flex items-center justify-center transition transform hover:scale-110 shadow-md">
+                        <i class="fa-brands fa-tiktok text-white text-lg"></i>
+                    </a>
+                </div>
+            </div> -->
         </div>
-    </section>
+    </main>
 
-    <footer class="bg-gray-900 text-gray-300 pt-16 pb-8">
+    <footer class="bg-gray-900 text-gray-300 pt-12 pb-8">
         <div class="container mx-auto px-4 text-center md:text-left grid md:grid-cols-3 gap-8 mb-8">
             <div>
                 <a href="#" class="text-2xl font-bold text-white flex justify-center md:justify-start items-center gap-2 mb-4">
@@ -143,25 +88,15 @@
                     <li><a href="#" class="hover:text-primary transition">Liên hệ quảng cáo</a></li>
                 </ul>
             </div>
-            <div>
-                <h4 class="text-white font-bold text-lg mb-4">Mạng Xã Hội</h4>
-                <div class="flex justify-center md:justify-start gap-4">
-                    <a href="#" class="bg-gray-800 hover:bg-primary w-10 h-10 rounded-full flex items-center justify-center transition"><i class="fa-brands fa-facebook-f text-white"></i></a>
-                    <a href="#" class="bg-gray-800 hover:bg-tiktok w-10 h-10 rounded-full flex items-center justify-center transition"><i class="fa-brands fa-tiktok text-white"></i></a>
-                    <a href="#" class="bg-gray-800 hover:bg-shopee w-10 h-10 rounded-full flex items-center justify-center transition"><i class="fa-solid fa-cart-shopping text-white"></i></a>
-                </div>
-            </div>
+            <!-- <div>
+                <h4 class="text-white font-bold text-lg mb-4">Liên Hệ</h4>
+                <p class="text-sm">Email: contact@captainaoxanh.com</p>
+            </div> -->
         </div>
         <div class="border-t border-gray-800 pt-6 text-center text-sm">
-            <p>&copy; 2026 Captain Áo Xanh Affiliate. All rights reserved.</p>
+            <p>&copy; 2026 Captain Áo Xanh. All rights reserved.</p>
         </div>
     </footer>
 
-    <button id="back-to-top" class="fixed bottom-6 right-6 bg-primary text-white w-12 h-12 rounded-full shadow-lg opacity-0 pointer-events-none transition-all duration-300 transform translate-y-4 hover:bg-secondary flex items-center justify-center text-xl z-50">
-        <i class="fa-solid fa-arrow-up"></i>
-    </button>
-
-    <!-- <script src="data.js"></script> -->
-    <script src="app.js"></script>
-</body>
+    </body>
 </html>
