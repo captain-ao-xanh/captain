@@ -25,11 +25,9 @@ const shopData = {
         { id: 3, name: "Hải Đăng", rating: 4.5, text: "Nhiều sản phẩm xịn, rate sao rất chuẩn xác. Sẽ ủng hộ web dài dài." }
     ],
 
-    // Dữ liệu sản phẩm sẽ được gen tự động qua hàm bên dưới
     products: []
 };
 
-// Hàm tự động sinh 60 sản phẩm đa dạng cho hệ thống Affiliate
 const generateAffiliateProducts = () => {
     const images = [
         "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
@@ -43,20 +41,24 @@ const generateAffiliateProducts = () => {
     ];
 
     const platforms = ["shopee", "tiktok"];
-    const allBadges = ["hot", "best_seller", "new", "sale", "limited", "trending", "featured", "premium"];
 
     for (let i = 1; i <= 60; i++) {
         const catId = (i % 8) + 1;
-        const basePrice = (Math.floor(Math.random() * 50) + 10) * 10000; // Giá từ 100k - 600k
-        const isSale = Math.random() > 0.3; // 70% có giảm giá
-        const price = isSale ? basePrice * (Math.floor(Math.random() * 40 + 50) / 100) : basePrice; // Giảm 10-50%
+        const basePrice = (Math.floor(Math.random() * 50) + 10) * 10000;
+        const isSale = Math.random() > 0.3; 
+        const price = isSale ? basePrice * (Math.floor(Math.random() * 40 + 50) / 100) : basePrice; 
         
-        // Random 1 đến 3 badges
-        const shuffledBadges = allBadges.sort(() => 0.5 - Math.random());
-        const productBadges = shuffledBadges.slice(0, Math.floor(Math.random() * 3) + 1);
-        
-        // Gắn cứng badge sale nếu có giảm giá
-        if (isSale && !productBadges.includes("sale")) productBadges.push("sale");
+        // CHỈ CHỌN 1 BADGE DUY NHẤT CÓ LOGIC CHẶT CHẼ HƠN
+        let selectedBadge = "";
+        if (isSale) {
+            // Nếu có giảm giá, ưu tiên các badge kích thích mua
+            const saleBadges = ["sale", "hot", "best_seller", "trending"];
+            selectedBadge = saleBadges[Math.floor(Math.random() * saleBadges.length)];
+        } else {
+            // Nếu không giảm giá, gán các badge thông thường
+            const normalBadges = ["new", "limited", "featured", "premium"];
+            selectedBadge = normalBadges[Math.floor(Math.random() * normalBadges.length)];
+        }
 
         shopData.products.push({
             id: i,
@@ -67,10 +69,10 @@ const generateAffiliateProducts = () => {
             categoryId: catId,
             description: "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
             sold: Math.floor(Math.random() * 15000) + 100,
-            rating: (Math.random() * 1 + 4).toFixed(1), // Rate 4.0 - 5.0
+            rating: (Math.random() * 1 + 4).toFixed(1),
             affiliatePlatform: platforms[Math.floor(Math.random() * platforms.length)],
-            affiliateUrl: "https://google.com?q=affiliate-link-mock", // Thay bằng link tracking thực tế
-            badges: productBadges
+            affiliateUrl: "https://google.com?q=affiliate-link-mock",
+            badges: [selectedBadge] // Chỉ truyền 1 phần tử
         });
     }
 };

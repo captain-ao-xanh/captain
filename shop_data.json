@@ -1,0 +1,792 @@
+{
+    "info": {
+        "name": "Captain Áo Xanh",
+        "slogan": "Săn Deal Thời Trang Xịn - Giá Tận Gốc",
+        "banner": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80",
+        "email": "contact@captainaoxanh.com"
+    },
+    "categories": [
+        {
+            "id": "1",
+            "name": "Áo Thun Nam Nữ",
+            "icon": "fa-shirt"
+        },
+        {
+            "id": "2",
+            "name": "Áo Sơ Mi",
+            "icon": "fa-user-tie"
+        },
+        {
+            "id": "3",
+            "name": "Áo Khoác",
+            "icon": "fa-vest"
+        },
+        {
+            "id": "4",
+            "name": "Quần Jeans",
+            "icon": "fa-viadeo"
+        },
+        {
+            "id": "5",
+            "name": "Hoodie & Sweater",
+            "icon": "fa-mitten"
+        },
+        {
+            "id": "6",
+            "name": "Quần Short",
+            "icon": "fa-person-running"
+        },
+        {
+            "id": "7",
+            "name": "Phụ Kiện (Mũ, Ví)",
+            "icon": "fa-hat-cowboy"
+        },
+        {
+            "id": "8",
+            "name": "Giày Sneaker",
+            "icon": "fa-shoe-prints"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Tuấn Anh",
+            "rating": 5,
+            "text": "Website tổng hợp deal ngon quá, mình săn được áo khoác bên Shopee rẻ hơn hẳn."
+        },
+        {
+            "id": 2,
+            "name": "Ngọc Diệp",
+            "rating": 5,
+            "text": "Thích cách phân loại sản phẩm, click qua TikTok Shop mua cực tiện."
+        },
+        {
+            "id": 3,
+            "name": "Hải Đăng",
+            "rating": 4.5,
+            "text": "Nhiều sản phẩm xịn, rate sao rất chuẩn xác. Sẽ ủng hộ web dài dài."
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Áo Sơ Mi Cao Cấp Mẫu 1",
+            "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e23?w=500&q=80",
+            "categoryId": "2",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "featured"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Áo Khoác Cao Cấp Mẫu 2",
+            "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80",
+            "categoryId": "3",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "sale"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Quần Jeans Cao Cấp Mẫu 3",
+            "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+            "categoryId": "4",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "new"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Hoodie & Sweater Cao Cấp Mẫu 4",
+            "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+            "categoryId": "5",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "sale"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Quần Short Cao Cấp Mẫu 5",
+            "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80",
+            "categoryId": "6",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "limited"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Phụ Kiện (Mũ, Ví) Cao Cấp Mẫu 6",
+            "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&q=80",
+            "categoryId": "7",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "featured"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Giày Sneaker Cao Cấp Mẫu 7",
+            "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80",
+            "categoryId": "8",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Áo Thun Nam Nữ Cao Cấp Mẫu 8",
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+            "categoryId": "1",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "new"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Áo Sơ Mi Cao Cấp Mẫu 9",
+            "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e23?w=500&q=80",
+            "categoryId": "2",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Áo Khoác Cao Cấp Mẫu 10",
+            "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80",
+            "categoryId": "3",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "best_seller"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Quần Jeans Cao Cấp Mẫu 11",
+            "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+            "categoryId": "4",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "hot"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Hoodie & Sweater Cao Cấp Mẫu 12",
+            "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+            "categoryId": "5",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "best_seller"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Quần Short Cao Cấp Mẫu 13",
+            "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80",
+            "categoryId": "6",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Phụ Kiện (Mũ, Ví) Cao Cấp Mẫu 14",
+            "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&q=80",
+            "categoryId": "7",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Giày Sneaker Cao Cấp Mẫu 15",
+            "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80",
+            "categoryId": "8",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Áo Thun Nam Nữ Cao Cấp Mẫu 16",
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+            "categoryId": "1",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Áo Sơ Mi Cao Cấp Mẫu 17",
+            "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e23?w=500&q=80",
+            "categoryId": "2",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "sale"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Áo Khoác Cao Cấp Mẫu 18",
+            "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80",
+            "categoryId": "3",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "new"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Quần Jeans Cao Cấp Mẫu 19",
+            "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+            "categoryId": "4",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "best_seller"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Hoodie & Sweater Cao Cấp Mẫu 20",
+            "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+            "categoryId": "5",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "hot"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Quần Short Cao Cấp Mẫu 21",
+            "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80",
+            "categoryId": "6",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "hot"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Phụ Kiện (Mũ, Ví) Cao Cấp Mẫu 22",
+            "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&q=80",
+            "categoryId": "7",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "sale"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Giày Sneaker Cao Cấp Mẫu 23",
+            "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80",
+            "categoryId": "8",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "new"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Áo Thun Nam Nữ Cao Cấp Mẫu 24",
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+            "categoryId": "1",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "hot"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Áo Sơ Mi Cao Cấp Mẫu 25",
+            "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e23?w=500&q=80",
+            "categoryId": "2",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Áo Khoác Cao Cấp Mẫu 26",
+            "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80",
+            "categoryId": "3",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Quần Jeans Cao Cấp Mẫu 27",
+            "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+            "categoryId": "4",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "featured"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Hoodie & Sweater Cao Cấp Mẫu 28",
+            "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+            "categoryId": "5",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "new"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Quần Short Cao Cấp Mẫu 29",
+            "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80",
+            "categoryId": "6",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "sale"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Phụ Kiện (Mũ, Ví) Cao Cấp Mẫu 30",
+            "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&q=80",
+            "categoryId": "7",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Giày Sneaker Cao Cấp Mẫu 31",
+            "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80",
+            "categoryId": "8",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "premium"
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Áo Thun Nam Nữ Cao Cấp Mẫu 32",
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+            "categoryId": "1",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "new"
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Áo Sơ Mi Cao Cấp Mẫu 33",
+            "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e23?w=500&q=80",
+            "categoryId": "2",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "limited"
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Áo Khoác Cao Cấp Mẫu 34",
+            "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80",
+            "categoryId": "3",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "limited"
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Quần Jeans Cao Cấp Mẫu 35",
+            "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+            "categoryId": "4",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "new"
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Hoodie & Sweater Cao Cấp Mẫu 36",
+            "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+            "categoryId": "5",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "hot"
+            ]
+        },
+        {
+            "id": 37,
+            "name": "Quần Short Cao Cấp Mẫu 37",
+            "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80",
+            "categoryId": "6",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "best_seller"
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Phụ Kiện (Mũ, Ví) Cao Cấp Mẫu 38",
+            "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&q=80",
+            "categoryId": "7",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Giày Sneaker Cao Cấp Mẫu 39",
+            "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80",
+            "categoryId": "8",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "sale"
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Áo Thun Nam Nữ Cao Cấp Mẫu 40",
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+            "categoryId": "1",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "hot"
+            ]
+        },
+        {
+            "id": 41,
+            "name": "Áo Sơ Mi Cao Cấp Mẫu 41",
+            "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e23?w=500&q=80",
+            "categoryId": "2",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "new"
+            ]
+        },
+        {
+            "id": 42,
+            "name": "Áo Khoác Cao Cấp Mẫu 42",
+            "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80",
+            "categoryId": "3",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "hot"
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Quần Jeans Cao Cấp Mẫu 43",
+            "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+            "categoryId": "4",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "best_seller"
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Hoodie & Sweater Cao Cấp Mẫu 44",
+            "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+            "categoryId": "5",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "limited"
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Quần Short Cao Cấp Mẫu 45",
+            "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80",
+            "categoryId": "6",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "sale"
+            ]
+        },
+        {
+            "id": 46,
+            "name": "Phụ Kiện (Mũ, Ví) Cao Cấp Mẫu 46",
+            "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&q=80",
+            "categoryId": "7",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "best_seller"
+            ]
+        },
+        {
+            "id": 47,
+            "name": "Giày Sneaker Cao Cấp Mẫu 47",
+            "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80",
+            "categoryId": "8",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 48,
+            "name": "Áo Thun Nam Nữ Cao Cấp Mẫu 48",
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+            "categoryId": "1",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "sale"
+            ]
+        },
+        {
+            "id": 49,
+            "name": "Áo Sơ Mi Cao Cấp Mẫu 49",
+            "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e23?w=500&q=80",
+            "categoryId": "2",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "limited"
+            ]
+        },
+        {
+            "id": 50,
+            "name": "Áo Khoác Cao Cấp Mẫu 50",
+            "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80",
+            "categoryId": "3",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "best_seller"
+            ]
+        },
+        {
+            "id": 51,
+            "name": "Quần Jeans Cao Cấp Mẫu 51",
+            "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+            "categoryId": "4",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 52,
+            "name": "Hoodie & Sweater Cao Cấp Mẫu 52",
+            "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+            "categoryId": "5",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "sale"
+            ]
+        },
+        {
+            "id": 53,
+            "name": "Quần Short Cao Cấp Mẫu 53",
+            "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&q=80",
+            "categoryId": "6",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "trending"
+            ]
+        },
+        {
+            "id": 54,
+            "name": "Phụ Kiện (Mũ, Ví) Cao Cấp Mẫu 54",
+            "image": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&q=80",
+            "categoryId": "7",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "limited"
+            ]
+        },
+        {
+            "id": 55,
+            "name": "Giày Sneaker Cao Cấp Mẫu 55",
+            "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80",
+            "categoryId": "8",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "hot"
+            ]
+        },
+        {
+            "id": 56,
+            "name": "Áo Thun Nam Nữ Cao Cấp Mẫu 56",
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+            "categoryId": "1",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "limited"
+            ]
+        },
+        {
+            "id": 57,
+            "name": "Áo Sơ Mi Cao Cấp Mẫu 57",
+            "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e23?w=500&q=80",
+            "categoryId": "2",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "hot"
+            ]
+        },
+        {
+            "id": 58,
+            "name": "Áo Khoác Cao Cấp Mẫu 58",
+            "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80",
+            "categoryId": "3",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "featured"
+            ]
+        },
+        {
+            "id": 59,
+            "name": "Quần Jeans Cao Cấp Mẫu 59",
+            "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+            "categoryId": "4",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "tiktok",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "new"
+            ]
+        },
+        {
+            "id": 60,
+            "name": "Hoodie & Sweater Cao Cấp Mẫu 60",
+            "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+            "categoryId": "5",
+            "description": "Thiết kế trẻ trung, chất liệu thoáng mát, form dáng chuẩn phong cách Hàn Quốc.",
+            "affiliatePlatform": "shopee",
+            "affiliateUrl": "https://google.com?q=affiliate-link-mock",
+            "badges": [
+                "premium"
+            ]
+        }
+    ]
+}
