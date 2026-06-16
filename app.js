@@ -54,7 +54,7 @@ const createProductCard = (product) => {
             <div class="p-4 flex flex-col flex-1">
                 <h3 class="font-bold text-gray-800 text-sm mb-1 line-clamp-2" title="${product.name}">${product.name}</h3>
                 <a href="${product.affiliateUrl}" target="_blank" rel="noopener noreferrer" class="w-full mt-auto ${btnColor} text-white font-bold py-2.5 rounded-xl flex items-center justify-center gap-2 transition transform active:scale-95 shadow-md">
-                    ${iconPlatform} Xem chi tiết
+                    ${iconPlatform} ${isShopee ? 'Shopee' : 'TikTok Shop'}
                 </a>
             </div>
         </div>
