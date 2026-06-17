@@ -12,13 +12,10 @@
     <title>Captain Áo Xanh</title>
     <link rel="icon" href="captain-fav.png" type="image/png">
     
-    <!-- Tích hợp Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Tích hợp Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
-    <!-- CSS tùy chỉnh cho hiệu ứng nền động và rung icon -->
     <style>
         /* Hiệu ứng nền di chuyển màu sắc */
         @keyframes gradientBG {
@@ -42,57 +39,69 @@
         }
     </style>
 </head>
-<body class="animated-bg flex items-center justify-center min-h-screen p-4 font-sans text-gray-800 overflow-hidden relative">
+<body class="animated-bg flex items-center justify-center min-h-screen p-4 py-10 font-sans text-gray-800 overflow-x-hidden relative">
 
-    <!-- Card nội dung với hiệu ứng Glassmorphism (Kính mờ) -->
     <div class="max-w-md w-full bg-white/80 backdrop-blur-lg rounded-[2.5rem] shadow-2xl p-8 text-center border border-white/50 relative z-10">
         
-        <!-- Ảnh đại diện bọc trong viền gradient -->
         <div class="p-1.5 rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-500 inline-block mb-4 shadow-lg transform hover:rotate-6 transition duration-300">
             <img src="captain.png" 
                  alt="Avatar" 
                  class="w-28 h-28 rounded-full border-4 border-white object-cover">
         </div>
         
-        <!-- Tiêu đề màu gradient -->
         <h1 class="text-3xl font-extrabold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-600">
             Captain Áo Xanh
         </h1>
         
-        <p class="text-gray-700 font-medium mb-8 text-sm px-2">
+        <!-- <p class="text-gray-700 font-medium mb-6 text-sm px-2">
             Xin chào! Đây là trang tổng hợp các liên kết của mình. Cảm ơn các bạn đã theo dõi và ủng hộ nội dung mình làm nhé! 👇
-        </p>
+        </p> -->
+
+        <div class="bg-white/60 p-5 rounded-3xl border border-white/70 shadow-sm mb-6">
+            <h2 class="text-xl font-bold mb-2 text-gray-800 flex items-center justify-center gap-2">
+                <i class="fa-solid fa-hand-holding-heart text-pink-500"></i> Ủng hộ mình (Donate)
+            </h2>
+            <p class="text-xs text-gray-600 mb-4 px-2">
+                Mọi sự ủng hộ của bạn đều là động lực to lớn giúp mình phát triển kênh. Cảm ơn bạn rất nhiều! ❤️
+            </p>
+            
+            <div class="bg-white p-2 rounded-2xl shadow-md mb-5 inline-block border border-gray-100">
+                <img src="qr-tpb.png" alt="Mã QR Chuyển khoản" class="w-full object-contain rounded-xl mx-auto">
+            </div>
+            
+            <a href="qr-tpb.png" download="QR_CaptainAoXanh.png" 
+               class="group flex items-center justify-center relative w-full py-3.5 px-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-2xl font-bold transition-all duration-300 shadow-[0_0_15px_rgba(16,185,129,0.4)] transform hover:scale-105 hover:-translate-y-1 gap-2">
+                <i class="fa-solid fa-download icon-wiggle"></i>
+                <span>Tải ảnh QR xuống</span>
+            </a>
+        </div>
+
+        <hr class="border-gray-300/60 my-6">
         
         <div class="space-y-5">
-            
-            <!-- Nút 1: Tóp tóp (Màu Đen gradient) -->
             <a href="https://www.tiktok.com/@beauties_daily" target="_blank" 
                class="group flex items-center justify-center relative w-full py-3.5 px-4 bg-gradient-to-r from-gray-900 to-black text-white rounded-2xl font-bold transition-all duration-300 shadow-[0_0_15px_rgba(0,0,0,0.3)] transform hover:scale-105 hover:-translate-y-1">
                 <i class="fa-brands fa-tiktok absolute left-5 text-xl icon-wiggle text-pink-400"></i>
                 <span>Tóp tóp</span>
             </a>
-            <!-- End Nút 1: Tóp tóp (Màu Đen gradient) -->
 
-            <!-- Nút 2: Phở bò (Màu Xanh gradient) -->
             <a href="https://www.facebook.com" target="_blank" 
                class="group flex items-center justify-center relative w-full py-3.5 px-4 bg-gradient-to-r from-blue-600 to-blue-400 text-white rounded-2xl font-bold transition-all duration-300 shadow-[0_0_15px_rgba(59,130,246,0.5)] transform hover:scale-105 hover:-translate-y-1">
                 <i class="fa-brands fa-facebook absolute left-5 text-xl icon-wiggle text-white"></i>
                 <span>Phở bò</span>
             </a>
-            <!-- End Nút 2: Phở bò (Màu Xanh gradient) -->
 
-            <!-- Nút 3: Shọpee (Màu Cam gradient) -->
             <a href="https://collshp.com/captain.ao.xanh?view=storefront" target="_blank" 
                class="group flex items-center justify-center relative w-full py-3.5 px-4 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-2xl font-bold transition-all duration-300 shadow-[0_0_15px_rgba(249,115,22,0.5)] transform hover:scale-105 hover:-translate-y-1">
                 <i class="fa-solid fa-bag-shopping absolute left-5 text-xl icon-wiggle text-yellow-200"></i>
                 <span>Shọpee</span>
             </a>
-            <!-- End Nút 3: Shọpee (Màu Cam gradient) -->
         </div>
+
     </div>
 
-    <!-- Các bong bóng trang trí mờ ảo phía sau -->
-    <div class="absolute top-10 left-10 w-32 h-32 bg-yellow-300 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-pulse"></div>
-    <div class="absolute bottom-10 right-10 w-32 h-32 bg-pink-400 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-pulse"></div>
+    <div class="fixed top-10 left-10 w-32 h-32 bg-yellow-300 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-pulse"></div>
+    <div class="fixed bottom-10 right-10 w-32 h-32 bg-pink-400 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-pulse"></div>
+
 </body>
 </html>
